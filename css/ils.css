@@ -27,15 +27,7 @@ a:active,
 a.active {
     outline: none;
 }
-a {
-    color: #fed136;
-}
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color: #fec503;
-}
+
 h1,
 h2,
 h3,
@@ -101,8 +93,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
     color: white;
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: red;
+    border-color: red;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -116,8 +108,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     color: white;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: red;
+    border-color: red;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -143,7 +135,7 @@ fieldset[disabled] .btn-xl.active {
     border-color: #fed136;
 }
 .btn-xl .badge {
-    color: #fed136;
+    color: red;
     background-color: white;
 }
 .navbar-custom {
@@ -151,7 +143,7 @@ fieldset[disabled] .btn-xl.active {
     border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-    color: #fed136;
+    color: red;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
