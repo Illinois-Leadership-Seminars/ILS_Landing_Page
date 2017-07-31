@@ -131,8 +131,8 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: red;
+    border-color: red;
 }
 .btn-xl .badge {
     color: red;
@@ -413,7 +413,7 @@ section h3.section-subheading {
     height: 80px;
     position: absolute;
     z-index: 100;
-    background-color: #fed136;
+    background-color: red;
     color: white;
     border-radius: 100%;
     border: 7px solid #f1f1f1;
@@ -554,23 +554,7 @@ section#contact {
 section#contact .section-heading {
     color: white;
 }
-section#contact .form-group {
-    margin-bottom: 25px;
-}
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
-section#contact .form-group input.form-control {
-    height: auto;
-}
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-section#contact .form-control:focus {
-    border-color: #fed136;
-    box-shadow: none;
-}
+
 section#contact ::-webkit-input-placeholder {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -596,9 +580,6 @@ section#contact :-ms-input-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #eeeeee;
-}
-section#contact .text-danger {
-    color: #e74c3c;
 }
 footer {
     padding: 25px 0;
@@ -637,7 +618,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: red;
 }
 .btn:focus,
 .btn:active,
@@ -721,11 +702,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: red;
 }
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: red;
 }
 img::selection {
     background: transparent;
@@ -734,5 +715,5 @@ img::-moz-selection {
     background: transparent;
 }
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: red;
 }
