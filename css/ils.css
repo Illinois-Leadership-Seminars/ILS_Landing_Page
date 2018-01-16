@@ -38,6 +38,10 @@ h6 {
     text-transform: uppercase;
     font-weight: 700;
 }
+h2{
+  font-size: 30px !important;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -716,4 +720,16 @@ img::-moz-selection {
 }
 body {
     webkit-tap-highlight-color: red;
+}
+.dropdown-item {
+    color:#222222 !important;
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    text-align: inherit;
+    white-space: nowrap;
+    background: 0 0;
+    border: 0;
 }
